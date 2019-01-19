@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="favicon" href="img/favicon.ico"/>
+		<title>meadooow</title>
+		<script src="js/meadow.js"></script> <!-- if no cookies, let user know the 
+		program will still work but they'll have to keep 
+		inputting a name after a refresh -->
+	</head>
+	<body onload=init();>
+		<div class="hello">
+			<h1 class="h1-hello" id="h1-hello"></h1>
+		</div>
+		<div class="time">
+			<h2 class="h2-time" id="h2-time"></h2>
+		</div>
+		<div class="date">
+			<h3 class="h3-date" id="h3-date"></h3>
+		</div>
+		<img id="img-gear" src="img/settings.svg" onclick=showSettings()></svg>
+		<div class="settings" id="settings">
+			<form>
+				<button type="button" id="light" onclick=lightMode()>light</button>
+				<button type="button" id="dark" onclick=darkMode()>dark</button>
+				<button type="button" onclick='document.getElementById("settings").style.display = "none";'>close</button>
+			</form>
+		</div>
+		<div class="todo"> <!-- syncs with something on nextcloud?? -->
+		</div>
+	</body>
+</html>

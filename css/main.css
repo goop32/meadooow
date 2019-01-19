@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background-color: white;
+	padding-top: 35vh;
+}
+
+div.hello {
+	
+}
+
+h1.h1-hello {
+	font-family: Arial;
+	font-size: calc(2vh * 2vw);
+}
+
+div.time {
+	
+}
+
+h2.h2-time {
+	font-size: 
+}
+
+div.date {
+	
+}
+
+h3.h3-date {
+	
+}
+
+div.settings {
+	padding-top: 10px;
+	display: none;
+}
+
+img.img-icon-light {
+	color: black;
+	height: 4vh;
+	width: 4vw;
+}
+
+img.img-icon-dark {
+	height: 4vh;
+	width: 4vw;
+}
+
+div.todo {
+	
+}
