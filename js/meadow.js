@@ -8,6 +8,7 @@ function time() {
 	var g = ["Hello, ", "Howdy, ", "Greetings, ", "Hey, ", "Yo, ", "What a nice day we're having, ", "Woah, it's "];
 	var gr = g[Math.floor(Math.random() * g.length)]; // selected greeting
 	var p = prompt("what's your name? \(leave blank for frosted tip man\)");
+	console.log(p);
 	if (p == "" || p == null) p="Guy Fieri";
 	document.getElementById("h1-hello").innerHTML = (gr + p + "!");
 
