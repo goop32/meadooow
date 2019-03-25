@@ -40,7 +40,7 @@ function showSettings() {
 
 function darkMode() {
 	document.getElementsByTagName("body")[0].style.backgroundColor = "black";
-	document.getElementById("h1-hello").style.color = "white";
+	document.getElementById("h1-hello").style.color = "purple";
 	document.getElementById("h2-time").style.color = "white";
 	document.getElementById("h3-date").style.color = "white";
 	document.getElementById("img-gear").style.filter="invert(100%)";
@@ -48,7 +48,7 @@ function darkMode() {
 
 function lightMode() {
 	document.getElementsByTagName("body")[0].style.backgroundColor = "white";
-	document.getElementById("h1-hello").style.color = "black";
+	document.getElementById("h1-hello").style.color = "orange";
 	document.getElementById("h2-time").style.color = "black";
 	document.getElementById("h3-date").style.color = "black";
 	document.getElementById("img-gear").style.filter="invert(0%)";
